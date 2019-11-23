@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+@media (max-width: 768px) {
+    article{
+        background:blue;
+    }
+}
+@media (max-width: 576px) {
+    article{
+        background:red;
+    }
+    article .article-image{
+        width: 100% !important;
+    }
+    article button {
+        display: none;
+    }
+}
+body{
+    background: gray;
+}
+header{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 768px;
+    margin: 0 auto;
+   
+}
+.container2{
+    max-width: 768px;
+    margin: 0 auto;
+   
+}
+
+.logo {
+    padding: 20px;
+    
+ }
+header ul{
+
+    display: flex;
+    list-style: none;
+    
+}
+header ul li{
+    padding:5px;
+    margin-right: 5px;
+}
+a {
+    text-decoration: none;
+}
+article {
+    border: 1px solid black;
+    padding: 40px;
+    margin: 30px;
+    display: flex;
+    background: white;
+    border-radius: 10px;
+}
+article .article-image {
+    background: green;
+    height: 100px;
+    width:100px;
+    border-radius: 10px;
+}
+article .article-text h1{
+   margin:0px;
+  
+}
+article .article-text {
+  margin-left: 15px;
+}
+
+article .article-text button {
+    padding: 10px;
+    border:none;
+  }
+/* button.button-primary{
+    background: blue;
+}
+button.button-secondary{
+    background: green;
+}
+button.button-error{
+    background: red;
+} */
+button {
+    background: aqua;
+    border-radius: 10px;
+}
+article.slide1{
+    align-content: center;
+}
+.tombolkanan{
+    display: flex;
+    justify-content: end;
+}
